@@ -48,3 +48,7 @@ Thumbs.db
 
 src/environments/version.ts
 src/environments/version.json
+
+.nx
+.vscode
+.angular

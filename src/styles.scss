@@ -155,7 +155,9 @@
 html,
 body {
   height: 100%;
+  overscroll-behavior: none;
 }
+
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;

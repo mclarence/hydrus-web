@@ -325,6 +325,7 @@ export class PhotoswipeService {
         vid.loop = this.settingsService.appSettings.mediaLoop;
         vid.muted = this.settingsService.appSettings.mediaDefaultMuted;
         vid.className = 'pswp-video pswp-media';
+        vid.setAttribute('playsinline', '')
         vid.onloadeddata = (e) => {
           content.onLoaded();
         }
